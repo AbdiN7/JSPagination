@@ -1,0 +1,65 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	background: linear-gradient(45deg, #1b7a77, #2c5b82);
+	font-family: sans-serif;
+	font-weight: 100;
+}
+.btn{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    width: 200px;
+    padding: 12px;
+	background: linear-gradient(45deg, #72b1af, #32bfe2);
+}
+.btn:hover{
+	background: linear-gradient(45deg, #c9e9f1, #46dbd6);
+}
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.tblTop
+{
+    margin-bottom: 5px;
+
+    border-radius: 10px;
+}
+table {
+    border-radius: 10px;
+    width: 300px;
+    margin-bottom: 20px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+th,
+td {
+    padding: 15px;
+    width: 75px;;
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
+}
+
+th {
+	text-align: left;
+}
+
+thead th {
+        font-size: 20px;
+		background-color: #253faf;
+	}
+.page{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
